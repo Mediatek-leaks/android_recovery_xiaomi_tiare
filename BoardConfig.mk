@@ -73,3 +73,10 @@ SHRP_DEVICE_TYPE := A_Only
 # PATH
 SHRP_REC := /dev/block/bootdevice/by-name/recovery
 SHRP_NO_SAR_AUTOMOUNT := true
+
+# EDL
+SHRP_EDL_MODE := 1
+SHRP_EXTERNAL := /storage
+SHRP_INTERNAL := /sdcard1
+SHRP_OTG := /usb-otg
+SHRP_FLASH := 1
